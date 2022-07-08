@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url(https://i.pinimg.com/originals/49/73/ea/4973ead72580df908af111b6770fe6ac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+nav{
+    background-color: rgb(93, 183, 211);
+    width: 100%;
+}
+
+.Menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Lista a{
+text-decoration: none;
+color: white;
+display: block;
+padding: 15px 50px;
+}
+
+.Menu .Lista{
+    display: inline-block;
+}
+
+.Lista-r{
+    float: right;
+    text-decoration-line:underline;
+}
+
+.Lista a:hover{
+background-color: tomato;
+}
+
+main {
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 140px;
+    width: 10%;
+    border: 10px solid rgb(0, 0, 0);
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(10, 110, 110);
+}
+
+label{
+    font-size: 22px;
+    font-weight: 600px;
+    color: white;
+}
+
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(23, 53, 44);
+    color: white;
+}
+
+button[type="submit"]{
+    background: rgb(163, 60, 60);
+    color: white;
+    padding: 10px;
+    font-family: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(241, 47, 47); 
+}
